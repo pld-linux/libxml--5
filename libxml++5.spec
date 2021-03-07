@@ -62,7 +62,7 @@ Biblioteka statyczna libxml++.
 Summary:	libxml++ API documentation
 Summary(pl.UTF-8):	Dokumentacja API libxml++
 Group:		Documentation
-%{?noarchpackage}
+BuildArch:	noarch
 
 %description apidocs
 libxml++ API documentation.
