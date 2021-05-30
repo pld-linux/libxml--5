@@ -5,12 +5,12 @@
 Summary:	C++ interface for working with XML files
 Summary(pl.UTF-8):	Interfejs C++ do pracy z plikami XML
 Name:		libxml++5
-Version:	5.0.0
+Version:	5.0.1
 Release:	1
 License:	LGPL v2.1
 Group:		Libraries
 Source0:	https://download.gnome.org/sources/libxml++/5.0/libxml++-%{version}.tar.xz
-# Source0-md5:	4153c04b2215696e8fb3cc1ae9ccdfdf
+# Source0-md5:	b95f8c7cd1068bd7b88111340aba6238
 URL:		http://libxmlplusplus.sourceforge.net/
 BuildRequires:	autoconf >= 2.59
 BuildRequires:	automake >= 1:1.11
@@ -20,6 +20,7 @@ BuildRequires:	libtool >= 2:2.2.6
 BuildRequires:	libxml2-devel >= 1:2.7.7
 BuildRequires:	mm-common >= 0.9.10
 BuildRequires:	pkgconfig
+BuildRequires:	rpm-build >= 4.6
 BuildRequires:	rpmbuild(macros) >= 1.752
 BuildRequires:	tar >= 1:1.22
 BuildRequires:	xz
